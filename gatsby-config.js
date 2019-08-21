@@ -1,7 +1,7 @@
 require('dotenv').config();
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Memories of Learning`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -41,7 +41,7 @@ module.exports = {
           wpcom_user: process.env.WORDPRESS_USERNAME,
           wpcom_pass: process.env.WORDPRESS_PASSWORD,
         },
-        verboseOutput: true,
+        verboseOutput: false,
         searchAndReplaceContentUrls: {
           sourceUrl: 'https://thejordancode.wordpress.com',
           replacementUrl: 'localhost:8000',

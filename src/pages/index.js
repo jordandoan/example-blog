@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = ({ data }) => {
   return (
   <Layout>
-    <SEO title=""/>
+    <SEO title="Home"/>
     <h2>Why Won't You Work</h2>
       <h3>Posts</h3>
       {data.allWordpressPost.edges.map(({ node }) => (

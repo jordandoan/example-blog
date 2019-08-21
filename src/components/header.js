@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import {Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
@@ -27,7 +27,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <Link to="/preface" activeClassName="selected">Preface</Link>
     </div>
+
   </header>
 )
 

@@ -620,3 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.selected {
+  background-color:white;
+  text-decoration:none;
+  border-radius:5px;
+  color:black;
+}

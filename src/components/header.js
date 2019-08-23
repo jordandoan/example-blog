@@ -8,13 +8,13 @@ const Header = ({ siteTitle }) => (
     <div className={styles.container}>
       <div>
         <h1 className={styles.title}>
-          <Link className={styles.link} to="/">
+          <Link className={styles.linkColor} to="/">
             {siteTitle}
           </Link>
         </h1>
       </div>
       <div className={styles.links}>
-        <Link className={styles.link} to="/preface">Preface</Link>
+        <Link className={`${styles.link} ${styles.linkColor}`} to="/preface">Preface</Link>
       </div>
     </div>
 

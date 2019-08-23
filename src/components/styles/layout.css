@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Dosis|Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque|Dosis|Fjalla+One&display=swap');
 /* Dosis, Passion One, Darker Grotesque*/
 html {
   font-family: sans-serif;
@@ -628,4 +628,10 @@ pre tt:after {
   text-decoration:none;
   border-radius:5px;
   color:black;
+}
+
+#gatsby-focus-wrapper {
+  color:white;
+  background-color:black;
+  height:100vh;
 }

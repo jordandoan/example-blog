@@ -1,4 +1,4 @@
-import { Link } from "gatsby"
+import {Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styles from "./header.module.less"
@@ -29,7 +29,9 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <Link className={styles.link} to="/preface">Preface</Link>
+
     </div>
+
   </header>
 )
 
